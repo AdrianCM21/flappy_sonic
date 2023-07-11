@@ -34,13 +34,11 @@ let highScore = 0;
 let scored = false;
 
 // lets us control the bird with the space key
-// document.body.onkeyup = function(e) {
+document.body.ontouchstart = function(e) {
    
-//     birdVelocity = FLAP_SPEED;
-// }
-document.getElementById('game-container').addEventListener('touchstart', function(event){
-    birdVelocity = FLAP_SPEED;
-})
+        birdVelocity = FLAP_SPEED;
+}
+
 // lets us restart the game if we hit game-over
 document.getElementById('restart-button').addEventListener('click', function() {
     hideEndMenu();

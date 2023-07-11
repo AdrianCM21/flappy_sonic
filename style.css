@@ -45,7 +45,7 @@ canvas {
 
 #inicio-menu {
     /* we will toggle then the display of the end-menu */
-    position: absolute;
+    margin: auto;
     height: 100vh;
     width: 100vw;
     /* padding: 20px; */
